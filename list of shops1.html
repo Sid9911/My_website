@@ -1,0 +1,139 @@
+<html>
+    <head>
+        <title>List of shops</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="newcss22.css">
+        <link rel="stylesheet" type="text/css" href="loscss.css">
+        <link rel="shortcut icon" type="image/jpeg" href="images1/icon.png">
+          <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+          
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      
+         
+       </head>
+      <body class="container">
+    <button type="button" onclick="function()" style="background-color: black; float: right" id="button2"><a href="logout" style="text-decoration: none; color: white; font-size: medium;">Logout</a></button>
+           <div class="logo_container">
+               <nav>
+                   <img src="images1/logo.jpg" class="logo">
+                <ul>
+                     <li><a href="main1.html">Home</a></li>
+                   <li><a href="list of shops1.html">List of shops</a></li>
+                   <li><a href="buying.jsp">Buying</a></li>
+                   <li><a href="selling.html">Selling</a></li>
+                   <li><a href="#">Live customization</a>
+                       <ul>
+                           <li><a href="Interior.html">Interior</a></li>
+                             <li><a href="Exterior.html">Exterior</a></li>
+                         </ul>
+                   </li>
+                <li><a href="Contact_us.html">Contact Us</a></li>
+                 </ul>
+               </nav>
+             </div>
+             <div class="social-icons">
+        <div class="btn-group-vertical">
+            <button type="button" class="btn btn-dark" data-toggle="tooltip" data-placement="left" title="Share on Facebook"  onclick="function()" id="button"><a href="https://www.facebook.com">
+                    <i class="fa fa-facebook"></i></a>
+          </button>
+            <button type="button" class="btn btn-dark" data-toggle="tooltip" data-placement="left" title="Share on Twitter"  onclick="function()" id="button"><a href="https://twitter.com">
+                    <i class="fa fa-twitter"> </i></a>
+           </button>
+            <button type="button" class="btn btn-dark" data-toggle="tooltip" data-placement="left" title="Share on Email"  onclick="function()" id="button"><a href="https://mail.google.com">
+                    <i class="fa fa-envelope"></i></a>
+            </button>
+        </div>
+    </div>
+           <br><br><br><br><br><br><br><br>
+          <div class="Div1">
+                 <img src="images/Dlogo.jpeg" class="Dlogo">
+                 <h1 class="DL">Dhanlaxmi Motors</h1>
+                 <h3 class="add">70/72 Trikum House,<br>Girgaon,Gaiwadi,<br>
+                     Jss Road ,Churni Road (east)<br> Mumbai-400004 Maharashtra</h3>
+                 
+                 <h2 class="cd">Contact No:9324376432</h2>
+                     <h2 class="cd">E-mail:dhanlaxmimotors2011@gmail.com</h2>
+                     <p class="cd" style="font-size:200% " > From Standard Interior car <br>to Luxurious Car we Provide<br> 
+                         every single Accessories<br> you need in your car. </p>
+          </div>
+           <br><br><br>
+           <div class="Div1">
+                 <img src="images7/gm.jpeg" class="Dlogo">
+                 <h1 class="DL">Gandhi Motors</h1>
+                 <h3 class="add">13 Raj Heights,<br>M.G.Road,<br>
+                     Kandiwali (West)<br> Mumbai-400067 Maharashtra</h3>
+                 
+                 <h2 class="cd">Contact No:9892650716</h2>
+                     <h2 class="cd">E-mail:gmnx08@gmail.com</h2>
+                     <p class="cd" style="font-size:200% " > Specialist in  <br>Music System<br> 
+                         Seat Covers <br> Car Accessories </p>
+          </div>
+           <br><br><br>
+         <div class="Div1">
+                 
+                 <h1 class="DL1">Shreeji Auto Spares</h1>
+                 <h3 class="add1">1st Floor <br> Murad Mansion <br>
+                     V P Road ,Churni Road (east)<br> Mumbai-400004 Maharashtra</h3>
+                 
+                 <h2 class="cd1">Contact No:9022220525</h2>
+                     <h2 class="cd2">E-mail:gandhimaulink@gmail.com</h2>
+                     
+          </div>
+           <br><br><br>
+         <div class="Div1">
+                 
+                 <h1 class="DL1">Shree Krishna Motors</h1>
+                 <h3 class="add1">15 2nd floor <br> Trikam House <br>
+                     V P Road ,Churni Road (east)<br> Mumbai-400004 Maharashtra</h3>
+                 
+                 <h2 class="cd1">Contact No:9930444041</h2>
+                     <h2 class="cd2">E-mail:vishal9930444041@gmail.com</h2>
+                     
+          </div>
+         <br><br><br>
+         <div class="Div1">
+                 
+                 <h1 class="DL1">Shreeraj Auto Mobiles</h1>
+                 <h3 class="add1">70/72 B 2nd Floor <br> Trikam House <br>
+                     V P Road ,Churni Road (east)<br> Mumbai-400004 Maharashtra</h3>
+                 
+                 <h2 class="cd1">Contact No:9870588728</h2>
+                     <h2 class="cd2">E-mail:raj.gandhi54321@gmail.com</h2>
+                     
+          </div>  
+            <script>
+              $().ready(function() {
+                     $("#button2").click(function(){
+    if(document.referrer != 'http://localhost:8080/'){ 
+        history.pushState(null, null, 'index.html');
+        window.addEventListener('popstate', function () {
+            history.pushState(null, null, 'index.html');
+        });
+    }
+                     });
+});
+           </script>
+               
+            <script>
+              $(document).ready(function() {
+                   $("#button").click(function(){
+    if(document.referrer != 'http://localhost:8080/'){ 
+        history.pushState(null, null, 'main1.html');
+        window.addEventListener('popstate', function () {
+            history.pushState(null, null, 'main1.html');
+        });
+    }
+                   });
+});
+           </script>
+           
+           
+           
+       </body>
+     
+           
+            
+       
+</html>

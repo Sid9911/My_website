@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en" class="h-100">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Exterior</title>
+    <meta name="description" content=" ">
+        <meta property="og:description" content=" ">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/theme-dark.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" type="image/jpeg" href="images1/icon.png">
+</head>
+
+
+
+<body class="bg-darkmode-dark  d-flex h-100" style="background-color: black">
+    
+    <div class="social-icons">
+        <div class="btn-group-vertical">
+            <button type="button" class="btn btn-dark" data-toggle="tooltip" data-placement="left" title="Share on Facebook" onclick="function()" id="button"><a href="https://www.facebook.com">
+                    <i class="fa fa-facebook"></i></a>
+          </button>
+            <button type="button" class="btn btn-dark" data-toggle="tooltip" data-placement="left" title="Share on Twitter" onclick="function()" id="button"><a href="https://twitter.com">
+                    <i class="fa fa-twitter"> </i></a>
+       </button>
+         <button type="button" class="btn btn-dark" data-toggle="tooltip" data-placement="left" title="Share on Email" onclick="function()" id="button"><a href="https://mail.google.com">
+                    <i class="fa fa-envelope"></i></a>
+          </button>
+        </div>
+    </div>
+
+   
+    <div class="container d-flex p-3 mx-auto flex-column">
+        <header class="mb-auto">
+            <h3 class="float-left"><a class="a-logo" href="Exterior.html"><img src="images1/logo.jpg" class="new_logo"></a>
+
+</h3>
+
+
+          <nav class="nav justify-content-center float-right">
+              <a href="Exterior.html" class="btn jj btn-dark signup-btn-click" style="background-color: goldenrod">Home</a>
+              <a href="color.html" class="btn jj btn-outline-light active mr-3 login-btn-click" style="background-color: goldenrod">Color</a>
+              <a href="view.html" class="btn jj btn-outline-light active mr-3 login-btn-click" style="background-color: goldenrod">360 View</a>
+              <a href="bonnet.html" class="btn jj btn-outline-light active mr-3 login-btn-click" style="background-color: goldenrod">Bonnet</a>
+              <a href="trunk.html" class="btn jj btn-outline-light active mr-3 login-btn-click" style="background-color: goldenrod">Trunk</a>
+              <a href="main1.html" class="btn jj btn-outline-light active mr-3 login-btn-click" style="background-color: goldenrod">Back</a>
+            
+          </nav>
+      </header>
+
+
+        <div class="tools-box ">
+
+
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="test-block">
+                        <h4>Hyundai Elantra Summary</h4>
+                        <p style="text-align: justify;">The new Hyundai Elantra has been spied on test ahead of its official launch later this year. The mid-life update to the D-segment sedan brings in a comprehensive cosmetic makeover with sharper styling and added features.</p>
+                        
+                        <a href="info.html"><button class="btn btn-dark btn-block mt-3 mb-3 btn-five"><i class="fa fa-mouse-pointer  pr-3" aria-hidden="true"></i>Information</button ></a>
+
+
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="test-click">
+
+                        <h3> Hyundai Elantra</h3>
+                        <center>
+                          <img src="img/h1d.png">
+                        </center>
+
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-4 col-4 text-center">
+                            <div class="small-div">
+                                
+                                <div class="box-text">
+
+                                   Rs.17.83 Lakh*
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-4 text-center">
+                            <div class="small-div">
+
+                             
+                                <div class="box-text">
+
+                                    21/L
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-4 text-center">
+                            <div class="small-div">
+                                
+                                <div class="box-text">
+
+                                   Best Car
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-3">
+                    <div class="test-block">
+                        <h4>Elantra Verdict</h4>
+                        <p style="text-align: justify;">Hyundai has upped the ante of the Elantra with the latest update. The D-segment sedan now gets a European-esque styling, updated cabin and segment-first connected car technologies. </p>
+                        <a href="wtype.html"><button class="btn btn-dark btn-block mt-3 mb-3 btn-five"><i class="fa fa-mouse-pointer  pr-3" aria-hidden="true"></i>Rims Option</button ></a>
+                      
+
+                    </div>
+                </div>
+            </div>
+
+
+
+
+        </div>
+
+<footer class="mt-auto  pt-5">
+
+          
+        </footer>
+
+    </div>
+    
+    
+     <script>
+              $(document).ready(function() {
+                   $("#button").click(function(){
+    if(document.referrer != 'http://localhost:8080/'){ 
+        history.pushState(null, null, 'Exterior.html');
+        window.addEventListener('popstate', function () {
+            history.pushState(null, null, 'Exterior.html');
+        });
+    }
+                   });
+});
+           </script>
+    
+</body>
+
+</html>

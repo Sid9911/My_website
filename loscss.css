@@ -1,0 +1,84 @@
+.Div{
+     border:3px solid Yellow;
+     width:900px;
+     height:400px;
+     position: relative;
+     bottom:2600px;
+     left:300px;
+    
+ }
+ .Dlogo{
+     width: 300px;
+     height: 220px;
+     position: relative;
+     left:30px;
+     top:30px;
+     border: 2px solid gold;
+ }
+ .DL {
+     color:white;
+     text-align: center;
+      position: relative;
+      font-size: 300%;
+     bottom:220px;
+     left: 150px;
+    
+ }
+.add{     
+    color:white;
+    font-size: 150%;
+    position: relative;
+     bottom:75px;
+     left:30px;
+}
+.cd {
+     color:white;
+     text-align: center;
+     position: relative;
+     bottom:380px;
+     left: 150px;
+    
+ }
+ 
+ .Div1{
+     border:3px solid Yellow;
+     width:900px;
+     height:400px;
+     position: relative;
+     
+     left:300px;
+ }
+ .DL1{
+     color:white;
+     text-align: center;
+      position: absolute;
+      font-size: 300%;
+     
+     left: 235px; 
+ }
+ .add1{     
+    color:white;
+    font-size: 150%;
+      text-align: center;
+    position: absolute;
+    top: 220px;
+     left:280px;
+}
+.cd1 {
+     color:white;
+     text-align: center;
+     position: absolute;
+     top: 100px;
+     left: 300px;
+    
+ }
+ .cd2 {
+     color:white;
+     text-align: center;
+     position: absolute;
+     top: 160px;
+     left:225px;
+    
+ }
+ 
+
